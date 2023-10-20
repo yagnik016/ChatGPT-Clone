@@ -65,7 +65,8 @@ class ChatGPT extends Component {
   }
 
   handleGenerateResponse = () => {
-    const apiKey = '3a84d2a400mshde756ce8bf8e207p103a3cjsnf51caa713198';
+    const apiKey = '3a84d2a400mshde756ce8bf8e207p103a3cjsnf51caa713198';  // Replace with your own API key  
+    //get your key from https://rapidapi.com/nextbaseapp/api/chatgpt-gpt4-ai-chatbot
     const apiUrl = 'https://chatgpt-gpt4-ai-chatbot.p.rapidapi.com/ask';
 
     const headers = {
